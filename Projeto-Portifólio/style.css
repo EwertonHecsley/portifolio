@@ -1,0 +1,342 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Questrial', sans-serif;
+
+    
+    
+}
+
+.cx-principal{
+    height: 100%;
+    width: 100%;
+    background-color: #191919;
+    padding-top: 80px;
+}
+
+.cx-meio{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 25px;
+    padding-top: 80px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    
+}
+
+.cx-meio span{
+    color: rgb(177, 16, 16);
+    font-size:40px;
+
+}
+
+.quem-sou-eu{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin: 10px 50px 10px 50px;
+    color: white;
+    margin-bottom: 80px;
+}
+
+.quem-sou-eu h3{
+    font-size: 35px;
+    margin: 15px 15px;
+}
+
+.quem-sou-eu p{
+    font-size: 20px;
+}
+
+.quem-sou-eu strong{
+    color: rgb(177, 16, 16);
+}
+
+.quem-sou-eu img{
+    height: 250px;
+    width: 250px;
+    border-radius: 100%;
+    border: solid 2px rgb(177, 16, 16);
+}
+
+.cx-tec{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-size: 35px;
+}
+
+.cx-tec2{
+    display: flex;
+    justify-content: space-around;
+    width: 95%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+@-webkit-keyframes swing
+{
+    15%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-5px);
+       transform: translateX(-5px);
+    } 
+    50%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+@keyframes swing
+{
+    15%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-5px);
+        transform: translateX(-5px);
+    }
+    50%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+
+.div-html{
+    background: rgb(105,105,105, 0.8 );
+    text-align: center;  
+    font-size: 20px;
+    border-radius: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 15px;
+}
+
+.div-html svg{
+    height: 80px;
+}
+
+.div-html:hover{
+    background-color: rgb(177, 16, 16);
+    -webkit-animation: swing 1s ease;
+    animation: swing 1s ease;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+}
+
+.div-css{
+    background: rgb(105,105,105, 0.8 );
+    text-align: center;  
+    font-size: 20px;
+    border-radius: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 15px;
+}
+
+.div-css svg{
+    height: 80px;
+}
+
+.div-css:hover{
+    background-color: rgb(177, 16, 16);
+    -webkit-animation: swing 1s ease;
+    animation: swing 1s ease;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+}
+
+.div-javascript{
+    background: rgb(105,105,105, 0.8 );
+    text-align: center;  
+    font-size: 20px;
+    border-radius: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 15px;
+}
+
+.div-javascript svg{
+    height: 80px;
+}
+
+.div-javascript:hover{
+    background-color: rgb(177, 16, 16);
+    -webkit-animation: swing 1s ease;
+    animation: swing 1s ease;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+}
+
+.div-react{
+    background: rgb(105,105,105, 0.8 );
+    text-align: center;  
+    font-size: 20px;
+    border-radius: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 15px;
+}
+
+.div-react svg{
+    height: 80px;
+}
+
+.div-react:hover{
+    background-color: rgb(177, 16, 16);
+    -webkit-animation: swing 1s ease;
+    animation: swing 1s ease;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    height: 80px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-image: url('./img/ab8252088082e5190b11ff4bff2e2c98.png');
+    box-shadow: inset 0 0 1em rgb(71, 60, 60), 0 0 3em rgb(177, 16, 16);
+    
+}
+
+header span{
+    color: rgb(177, 16, 16);
+}
+
+nav ul{
+    display: flex; 
+    font-size: 20px;   
+}
+
+nav a{
+    display: flex;
+    margin-right: 15px;
+    color: white;
+}
+
+nav li :hover{
+    color: rgb(177, 16, 16);
+    font-size: 30px;
+    transition: 0.5s;  
+}
+
+article{
+    color: white;
+    text-align: center;
+}
+
+footer{
+    color: white;
+    margin-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+@media (max-width:600px) {
+
+    header{
+        font-size: 15px;
+        padding-left: 30%;
+    }
+
+    header nav{
+        display: none;
+    }
+
+    .cx-principal{
+        display: flex;
+        flex-direction: column;
+        width: 100%
+    }
+
+    .cx-meio{
+        font-size: 15px;
+    }
+
+    .cx-meio span{
+        font-size: 25px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cx-tec2{
+        flex-direction: column;
+        width: 60%;
+    }
+
+    .div-html,.div-css,.div-javascript,.div-react{
+        margin-bottom: 20px;
+    }
+
+    .div-html,.div-css, .div-javascript,.div-react{
+        font-size: 18px;
+    }
+}
