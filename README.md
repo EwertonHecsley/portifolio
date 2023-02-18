@@ -1,10 +1,10 @@
-### Future Portifolio
+# Future Portfolio 
 
 
 <hr>
 
 
-Projeto para armazenamento de projetos futuros!!!  Em construção!
+Project for storage of future projects!!! Under construction!
 
 
 <hr>
